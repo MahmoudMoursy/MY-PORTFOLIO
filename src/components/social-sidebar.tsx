@@ -12,7 +12,7 @@ export default function SocialSidebar() {
       className="fixed left-2 top-1/2 -translate-y-1/2 p-4 z-40"
     >
       <div className="flex flex-col space-y-6 mx-14">
-        <Link href="https://github.com/MahmoudMoursy" className="text-gray-800 hover:text-gray-600 transition-colors">
+        <Link href="https://www.linkedin.com/in/mahmoud-moursy-443484300/" className="text-gray-800 hover:text-gray-600 transition-colors">
           <Linkedin size={20} />
         </Link>
         
