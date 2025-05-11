@@ -48,10 +48,14 @@ export default function Resume() {
             My Resume
           </h2>
           <div className="w-20 h-1 bg-gray-900 mx-auto mb-8"></div>
-          <button className="inline-flex items-center px-6 py-3 bg-gray-900 text-white rounded-full hover:bg-gray-800 transition-colors">
-            <Download className="w-5 h-5 mr-2" />
-            Download CV
-          </button>
+           <a
+      href="/Mahmoud_Moursyy.pdf"
+      download
+      className="inline-flex items-center px-6 py-3 bg-gray-900 text-white rounded-full hover:bg-gray-800 transition-colors"
+    >
+      <Download className="w-5 h-5 mr-2" />
+      Download CV
+    </a>
         </motion.div>
 
         <div className="grid md:grid-cols-2 gap-12">

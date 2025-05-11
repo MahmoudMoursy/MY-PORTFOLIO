@@ -12,6 +12,7 @@ import img7 from '../../public/2024-12-23 at 00.44.12_05adc785.jpg'
 import img8 from '../../public/Image 2024-12-23 at 00.58.56_3f3a7fd2.jpg'
 import img9 from '../../public/1112024-12-23 at 04.27.23_99a4f3dc.jpg'
 import img10 from '../../public/front.png'
+import Screenshot from '../../public/Screenshot 2025-05-06 105237.png'
 const projects = [
  
   {
@@ -63,6 +64,12 @@ const projects = [
     category: 'WordPress',
     image: img6,
     live: 'https://dev-hatchlings.pantheonsite.io/',
+  },
+  {
+    title: 'Website 8',
+    category: 'web',
+    image: Screenshot,
+    live: 'https://project1fg.vercel.app/',
   },
 ]
 
